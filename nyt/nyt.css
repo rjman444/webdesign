@@ -14,7 +14,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 40px;
+  height: 50px;
   border-bottom: 0.5px solid rgb(207, 207, 207);
   z-index: 1;
 }
@@ -32,9 +32,36 @@ nav {
 }
 
 .icon {
-  width: 20px;
-  height: 20px;
-  background-color: #c5e21f;
+  width: 17px;
+  height: 17px;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif ;
+}
+
+.logo {
+  font-family: "Times New Roman", Times, serif;
+}
+
+button {
+  padding: 11px 12px 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: rgb(86, 123, 149);
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all 0.6s ease 0s;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-image: initial;
 }
 
 /* Article Styles */
